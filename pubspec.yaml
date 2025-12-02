@@ -1,0 +1,57 @@
+name: horizon_design_system
+description: >
+  Horizon Design System — a reusable component library for the OnQuest app.
+  Includes foundations, theming, components (atoms/molecules/organisms),
+  layout helpers, utilities, and documentation.
+
+version: 1.0.0
+homepage: https://onquest.app
+publish_to: "none"   # internal package only
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For platform checks
+  universal_io: ^2.2.2
+
+  # For Cupertino theme
+  cupertino_icons: ^1.0.6
+
+  # For animations (we use built-in mostly, but this stays as optional)
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.1.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Your DS assets (optional for future)
+  assets:
+    - assets/icons/
+    - assets/illustrations/
+    - assets/placeholders/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+
+    - family: SF Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+
