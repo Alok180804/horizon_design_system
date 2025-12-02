@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../foundations/colors.dart';
+import '../../foundations/colors.dart';
 
 class HorizonDivider extends StatelessWidget {
   final double thickness;

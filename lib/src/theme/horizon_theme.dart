@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'horizon_dark_theme.dart';
 import 'horizon_light_theme.dart';
@@ -15,7 +16,6 @@ class HorizonTheme {
       case HorizonThemeMode.light:
         return materialLight;
       case HorizonThemeMode.dark:
-      default:
         return materialDark;
     }
   }

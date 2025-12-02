@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../foundations/colors.dart';
-import '../../foundations/spacing.dart';
-import '../../foundations/radii.dart';
-import '../../foundations/typography.dart';
+import '../../../foundations/colors.dart';
+import '../../../foundations/spacing.dart';
+import '../../../foundations/radii.dart';
 
 class HPrimaryButton extends StatelessWidget {
   final String label;
@@ -37,7 +36,9 @@ class HPrimaryButton extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(label, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+            Text(label,
+                style:
+                    const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
             if (icon != null) ...[
               const SizedBox(width: HorizonSpacing.sm),
               icon!,
@@ -48,4 +49,3 @@ class HPrimaryButton extends StatelessWidget {
     );
   }
 }
-

@@ -1,8 +1,19 @@
-class HorizonRadii {
-  static const double tiny = 4.0;
-  static const double small = 8.0;
-  static const double medium = 12.0;
-  static const double large = 16.0;
-  static const double xl = 20.0;
-  static const double pill = 999.0;
+import 'package:flutter/material.dart';
+
+class HorizonElevation {
+  static const List<BoxShadow> level1 = [
+    BoxShadow(
+      color: Color(0x1A000000),
+      offset: Offset(0, 1),
+      blurRadius: 2,
+    ),
+  ];
+
+  static const List<BoxShadow> level2 = [
+    BoxShadow(
+      color: Color(0x1A000000),
+      offset: Offset(0, 2),
+      blurRadius: 4,
+    ),
+  ];
 }

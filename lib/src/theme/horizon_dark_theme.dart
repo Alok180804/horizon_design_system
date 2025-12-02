@@ -8,9 +8,7 @@ ThemeData horizonDarkTheme() {
   final ColorScheme scheme = const ColorScheme.dark(
     primary: HorizonColors.primary,
     secondary: HorizonColors.primaryVariant,
-    background: HorizonColors.background,
     surface: HorizonColors.surface,
-    onBackground: HorizonColors.onBackground,
     onSurface: HorizonColors.onSurface,
     error: HorizonColors.error,
   );

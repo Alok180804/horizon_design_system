@@ -19,12 +19,11 @@ class SelectorTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Color bg = selected
-        ? HorizonColors.primary.withOpacity(0.12)
+        ? HorizonColors.primary.withValues(alpha: 0.12)
         : HorizonColors.surfaceVariant;
 
-    final Color iconColor = selected
-        ? HorizonColors.primary
-        : HorizonColors.mutedText;
+    final Color iconColor =
+        selected ? HorizonColors.primary : HorizonColors.mutedText;
 
     final BoxBorder border = selected
         ? Border.all(color: HorizonColors.primary, width: 2)

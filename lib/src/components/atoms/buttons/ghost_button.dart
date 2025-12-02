@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../foundations/colors.dart';
-import '../../foundations/radii.dart';
+import '../../../foundations/colors.dart';
+import '../../../foundations/radii.dart';
 
 class HGhostButton extends StatelessWidget {
   final Widget child;
@@ -19,7 +19,7 @@ class HGhostButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(HorizonRadii.small),
-      splashColor: HorizonColors.onSurface.withOpacity(0.06),
+      splashColor: HorizonColors.onSurface.withValues(alpha: 0.06),
       child: SizedBox(
         height: size,
         width: size,

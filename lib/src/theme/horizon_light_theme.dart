@@ -6,9 +6,7 @@ ThemeData horizonLightTheme() {
   final ColorScheme scheme = ColorScheme.light(
     primary: HorizonColors.primary,
     secondary: HorizonColors.primaryVariant,
-    background: Colors.white,
     surface: Colors.white,
-    onBackground: Colors.black,
     onSurface: Colors.black,
     error: HorizonColors.error,
   );

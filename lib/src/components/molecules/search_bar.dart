@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../foundations/colors.dart';
-import '../../foundations/radii.dart';
 import '../../foundations/spacing.dart';
 
 class HorizonSearchBar extends StatelessWidget {

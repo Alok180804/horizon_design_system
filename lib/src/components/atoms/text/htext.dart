@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../foundations/typography.dart';
+import '../../../foundations/typography.dart';
 
 class HText {
   static Widget h1(String text) =>

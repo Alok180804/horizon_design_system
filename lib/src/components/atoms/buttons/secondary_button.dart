@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../foundations/colors.dart';
-import '../../foundations/spacing.dart';
-import '../../foundations/radii.dart';
-import '../../foundations/typography.dart';
+import '../../../foundations/colors.dart';
+import '../../../foundations/spacing.dart';
+import '../../../foundations/radii.dart';
 
 class HSecondaryButton extends StatelessWidget {
   final String label;
@@ -33,7 +32,8 @@ class HSecondaryButton extends StatelessWidget {
             side: const BorderSide(color: HorizonColors.divider),
           ),
         ),
-        child: Text(label, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+        child: Text(label,
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
       ),
     );
   }
